@@ -1,0 +1,18 @@
+<head>
+  <title>Three Rivers water Levels</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+	{{> mapCont}}
+                {{#each gages}}
+                        {{> gage}}
+                {{/each}}
+</body>
+
+<template name="mapCont">
+	<div id="map" style="height: 341px; width: 621px;"></div>
+</template>
+
+<template name="gage">
+</template>
